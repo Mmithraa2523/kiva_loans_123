@@ -6,7 +6,7 @@
 			"type": "LinkedServiceReference"
 		},
 		"parameters": {
-			"folder_entity": {
+			"FolderEntity": {
 				"type": "string"
 			}
 		},

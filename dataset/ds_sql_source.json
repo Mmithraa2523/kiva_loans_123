@@ -6,7 +6,7 @@
 			"type": "LinkedServiceReference"
 		},
 		"parameters": {
-			"table_name": {
+			"TableName": {
 				"type": "string"
 			}
 		},
@@ -19,7 +19,7 @@
 				"type": "Expression"
 			},
 			"table": {
-				"value": "@dataset().table_name",
+				"value": "@dataset().TableName",
 				"type": "Expression"
 			}
 		}

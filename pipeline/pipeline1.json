@@ -25,7 +25,7 @@
 						"referenceName": "ds_sql_source",
 						"type": "DatasetReference",
 						"parameters": {
-							"table_name": "dummy"
+							"TableName": "dummy"
 						}
 					},
 					"firstRowOnly": false
@@ -93,8 +93,8 @@
 									"referenceName": "ds_sql_source",
 									"type": "DatasetReference",
 									"parameters": {
-										"table_name": {
-											"value": "@item().table_name",
+										"TableName": {
+											"value": "@item().TableName",
 											"type": "Expression"
 										}
 									}
@@ -105,8 +105,8 @@
 									"referenceName": "bronze_csv",
 									"type": "DatasetReference",
 									"parameters": {
-										"folder_entity": {
-											"value": "@item().table_name",
+										"FolderEntity": {
+											"value": "@item().TableName",
 											"type": "Expression"
 										}
 									}
