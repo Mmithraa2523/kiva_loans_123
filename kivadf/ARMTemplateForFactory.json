@@ -65,7 +65,7 @@
 								"referenceName": "ds_sql_source",
 								"type": "DatasetReference",
 								"parameters": {
-									"table_name": "dummy"
+									"TableName": "dummy"
 								}
 							},
 							"firstRowOnly": false
@@ -133,8 +133,8 @@
 											"referenceName": "ds_sql_source",
 											"type": "DatasetReference",
 											"parameters": {
-												"table_name": {
-													"value": "@item().table_name",
+												"TableName": {
+													"value": "@item().TableName",
 													"type": "Expression"
 												}
 											}
@@ -145,8 +145,8 @@
 											"referenceName": "bronze_csv",
 											"type": "DatasetReference",
 											"parameters": {
-												"folder_entity": {
-													"value": "@item().table_name",
+												"FolderEntity": {
+													"value": "@item().TableName",
 													"type": "Expression"
 												}
 											}
@@ -161,7 +161,7 @@
 					"elapsedTimeMetric": {}
 				},
 				"parameters": {
-					"folderentity": {
+					"FolderEntity": {
 						"type": "string"
 					}
 				},
@@ -182,7 +182,7 @@
 					"type": "LinkedServiceReference"
 				},
 				"parameters": {
-					"folder_entity": {
+					"FolderEntity": {
 						"type": "string"
 					}
 				},
@@ -196,7 +196,7 @@
 							"type": "Expression"
 						},
 						"folderPath": {
-							"value": "@dataset().folder_entity",
+							"value": "@dataset().FolderEntity",
 							"type": "Expression"
 						},
 						"fileSystem": "bronze"
@@ -222,7 +222,7 @@
 					"type": "LinkedServiceReference"
 				},
 				"parameters": {
-					"table_name": {
+					"TableName": {
 						"type": "string"
 					}
 				},
@@ -235,7 +235,7 @@
 						"type": "Expression"
 					},
 					"table": {
-						"value": "@dataset().table_name",
+						"value": "@dataset().TableName",
 						"type": "Expression"
 					}
 				}
