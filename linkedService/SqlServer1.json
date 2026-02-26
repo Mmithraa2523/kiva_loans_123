@@ -10,8 +10,8 @@
 			"encrypt": "mandatory",
 			"trustServerCertificate": false,
 			"authenticationType": "Windows",
-			"userName": "MITHRAA\\mithr",
-			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDE2M0NERTA4LTQ0OEQtNDMyOS1CNzkyLTEwREUzRTUxM0VENV80ZmU1YjU5ZS1lMDgyLTRhYzQtYTEzMS1hOThmY2E2MjQ2NTAiDQp9"
+			"userName": "adf_user",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDE2M0NERTA4LTQ0OEQtNDMyOS1CNzkyLTEwREUzRTUxM0VENV8yMjBkNjI0Yy00ZDU0LTQzYWMtYjlmZC0wYjdiMTVjZmY5MWEiDQp9"
 		}
 	}
 }
