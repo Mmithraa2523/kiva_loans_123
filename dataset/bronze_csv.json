@@ -20,7 +20,7 @@
 					"type": "Expression"
 				},
 				"folderPath": {
-					"value": "@dataset().folder_entity",
+					"value": "@dataset().FolderEntity",
 					"type": "Expression"
 				},
 				"fileSystem": "bronze"
